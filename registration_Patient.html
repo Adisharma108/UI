@@ -76,7 +76,7 @@
                 var formData = new FormData(this);
 
                 $.ajax({
-                    url: 'http://localhost:5000/register/patient',
+                    url: 'https://flaskbackendgithubdb.onrender.com/register/patient',
                     type: 'POST',
                     data: JSON.stringify({
                         fname: formData.get('fname'),

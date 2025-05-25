@@ -90,7 +90,7 @@
                 image: form.image.value  // just the filename, since we skip actual upload
             };
 
-            fetch("http://localhost:5000/register/doctor", {
+            fetch("https://flaskbackendgithubdb.onrender.com/register/doctor", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
